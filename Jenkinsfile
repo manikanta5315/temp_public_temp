@@ -24,7 +24,7 @@ pipeline {
             bat 'echo %password% | docker login -u %username% -p %password%'
             bat 'docker push manikanta5315/newsampleproject'
             }
-            }
+            
         }
 
 
